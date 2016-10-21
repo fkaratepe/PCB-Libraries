@@ -109,6 +109,25 @@
 <circle x="-2.1" y="-1.5" radius="0.14141875" width="0.127" layer="20"/>
 <text x="-2.45" y="3.85" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="SOT-25">
+<smd name="1" x="-0.95" y="-1.1" dx="0.4" dy="0.6" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.4" dy="0.6" layer="1"/>
+<smd name="3" x="0.95" y="-1.1" dx="0.4" dy="0.6" layer="1"/>
+<smd name="4" x="0.95" y="1.1" dx="0.4" dy="0.6" layer="1"/>
+<smd name="5" x="-0.95" y="1.1" dx="0.4" dy="0.6" layer="1"/>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.8" x2="-1.35" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-0.55" y1="-0.8" x2="-0.4" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-0.8" x2="0.55" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.35" y1="-0.8" x2="1.45" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.8" x2="1.35" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.55" y1="0.8" x2="0.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.4" y1="0.8" x2="-0.4" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0.8" x2="-0.55" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.35" y1="0.8" x2="-1.45" y2="0.8" width="0.127" layer="21"/>
+<text x="-1.4" y="1.55" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="A8586">
@@ -126,6 +145,18 @@
 <wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
 <text x="-7.62" y="13.208" size="1.016" layer="95">&gt;NAME</text>
 <text x="9.652" y="-14.986" size="1.27" layer="94" rot="R90">A8586</text>
+</symbol>
+<symbol name="XC6222">
+<pin name="VIN" x="-10.16" y="5.08" visible="pin" length="short"/>
+<pin name="VSS" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="CE" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="VOUT" x="10.16" y="5.08" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.128" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.778" y="-9.398" size="1.27" layer="94">XC6222</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -171,6 +202,29 @@
 <attribute name="MN_CODE" value="A8586KLJTR-T" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="620-1716-2-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XC6222" prefix="IC">
+<gates>
+<gate name="G$1" symbol="XC6222" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-25">
+<connects>
+<connect gate="G$1" pin="CE" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Torex"/>
+<attribute name="MN_CODE" value="XC6222B331MR-G" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="893-1143-2-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
