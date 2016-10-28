@@ -234,6 +234,92 @@
 <text x="-2.5" y="3.15" size="1.016" layer="25">&gt;NAME</text>
 <smd name="EXP" x="0" y="0" dx="3.3" dy="2.41" layer="1"/>
 </package>
+<package name="TQFP48">
+<smd name="1" x="-4.25" y="2.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="2" x="-4.25" y="2.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="3" x="-4.25" y="1.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="4" x="-4.25" y="1.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="5" x="-4.25" y="0.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="6" x="-4.25" y="0.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="7" x="-4.25" y="-0.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="8" x="-4.25" y="-0.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="9" x="-4.25" y="-1.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="10" x="-4.25" y="-1.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="11" x="-4.25" y="-2.25" dx="1.6" dy="0.3" layer="1"/>
+<smd name="12" x="-4.25" y="-2.75" dx="1.6" dy="0.3" layer="1"/>
+<smd name="13" x="-2.75" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-2.25" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="-1.75" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="-1.25" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="-0.75" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="-0.25" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="0.25" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="0.75" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="21" x="1.25" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="22" x="1.75" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="23" x="2.25" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="24" x="2.75" y="-4.25" dx="1.6" dy="0.3" layer="1" rot="R90"/>
+<smd name="25" x="4.25" y="-2.75" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="26" x="4.25" y="-2.25" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="27" x="4.25" y="-1.75" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="28" x="4.25" y="-1.25" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="29" x="4.25" y="-0.75" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="30" x="4.25" y="-0.25" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="31" x="4.25" y="0.25" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="32" x="4.25" y="0.75" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="33" x="4.25" y="1.25" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="34" x="4.25" y="1.75" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="35" x="4.25" y="2.25" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="36" x="4.25" y="2.75" dx="1.6" dy="0.3" layer="1" rot="R180"/>
+<smd name="37" x="2.75" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="38" x="2.25" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="39" x="1.75" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="40" x="1.25" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="41" x="0.75" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="42" x="0.25" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="43" x="-0.25" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="44" x="-0.75" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="45" x="-1.25" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="46" x="-1.75" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="47" x="-2.25" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<smd name="48" x="-2.75" y="4.25" dx="0.3" dy="1.6" layer="1" rot="R180"/>
+<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.1" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-3.1" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.1" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="3.5" y2="3.1" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.1" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.1" y2="-3.5" width="0.127" layer="21"/>
+<circle x="-4" y="4.2" radius="0.282840625" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<text x="-3.5" y="5.2" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="SOP8K">
+<smd name="1" x="-1.905" y="-2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="2" x="-0.635" y="-2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="3" x="0.635" y="-2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="4" x="1.905" y="-2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="5" x="1.905" y="2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="6" x="0.635" y="2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="7" x="-0.635" y="2.475" dx="0.4" dy="1.05" layer="1"/>
+<smd name="8" x="-1.905" y="2.475" dx="0.4" dy="1.05" layer="1"/>
+<wire x1="-2.45" y1="1.95" x2="-2.45" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="-0.3" x2="-2.45" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-2.45" y1="-1.95" x2="-2.3" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.95" x2="-1.05" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-1.95" x2="0.2" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="1.05" y1="-1.95" x2="1.5" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-1.95" x2="2.45" y2="-1.95" width="0.127" layer="21"/>
+<wire x1="2.45" y1="-1.95" x2="2.45" y2="1.95" width="0.127" layer="21"/>
+<wire x1="2.45" y1="1.95" x2="2.3" y2="1.95" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.95" x2="1.05" y2="1.95" width="0.127" layer="21"/>
+<wire x1="0.2" y1="1.95" x2="-0.2" y2="1.95" width="0.127" layer="21"/>
+<wire x1="-1.05" y1="1.95" x2="-1.5" y2="1.95" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="1.95" x2="-2.45" y2="1.95" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="-0.3" x2="-2.4" y2="0.3" width="0.127" layer="21" curve="180"/>
+<circle x="-2.8" y="-1.5" radius="0.2" width="0.127" layer="21"/>
+<text x="-2.45" y="3.15" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="A8586">
@@ -331,6 +417,114 @@
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-10.16" y="10.668" size="1.016" layer="95">&gt;NAME</text>
 <text x="4.572" y="-14.224" size="1.016" layer="94">PAM2320</text>
+</symbol>
+<symbol name="EFM32HG322F64G-A">
+<pin name="I2C0_SDA" x="-7.62" y="5.08" length="short"/>
+<pin name="I2C0_SCL" x="-7.62" y="2.54" length="short"/>
+<pin name="PA2" x="-7.62" y="0" length="short"/>
+<pin name="PA8" x="-7.62" y="-2.54" length="short"/>
+<pin name="PA9" x="-7.62" y="-5.08" length="short"/>
+<pin name="PA10" x="-7.62" y="-7.62" length="short"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="8.128" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="EFM32HG322F64G-B">
+<pin name="PB7/LFXTAL_P" x="-10.16" y="5.08" visible="pin" length="short"/>
+<pin name="PB8/LFXTAL_N" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="PB11" x="-10.16" y="0" visible="pin" length="short"/>
+<pin name="PB13" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="PB14" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="7.874" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="EFM32HG322F64G-C">
+<pin name="PC0/US1_TX" x="-10.16" y="12.7" length="short"/>
+<pin name="PC1/US1_RX" x="-10.16" y="10.16" length="short"/>
+<pin name="PC2" x="-10.16" y="7.62" length="short"/>
+<pin name="PC3" x="-10.16" y="5.08" length="short"/>
+<pin name="PC4" x="-10.16" y="2.54" length="short"/>
+<pin name="PC8" x="-10.16" y="0" length="short"/>
+<pin name="PC9" x="-10.16" y="-2.54" length="short"/>
+<pin name="PC10" x="-10.16" y="-5.08" length="short"/>
+<pin name="PC14/USB_DM" x="-10.16" y="-7.62" length="short"/>
+<pin name="PC15/USB_DP" x="-10.16" y="-10.16" length="short"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="15.494" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="EFM32HG322F64G-D">
+<pin name="PD4" x="-5.08" y="2.54" visible="pin" length="short"/>
+<pin name="PD5" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="PD6" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<pin name="PD7" x="-5.08" y="-5.08" visible="pin" length="short"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.334" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="EFM32HG322F64G-E">
+<pin name="PE10/US0_TX" x="-5.08" y="5.08" visible="pin" length="short"/>
+<pin name="PE11/US0_RX" x="-5.08" y="2.54" visible="pin" length="short"/>
+<pin name="PE12/ADC0_CH0" x="-5.08" y="0" visible="pin" length="short"/>
+<pin name="PE13/ADC0_CH1" x="-5.08" y="-2.54" visible="pin" length="short"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="15.24" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.794" y="5.842" size="1.27" layer="95">&gt;NAME
+</text>
+</symbol>
+<symbol name="EFM32HG322F64G-F">
+<pin name="PF0/DBG_SWCLK" x="-12.7" y="5.08" visible="pin" length="short"/>
+<pin name="PF1/DBG_SWDIO" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="PF2" x="-12.7" y="0" visible="pin" length="short"/>
+<pin name="PF3" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="PF4" x="-12.7" y="-5.08" visible="pin" length="short"/>
+<pin name="PF5" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.128" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="EFM32HG322F64G-POWER">
+<pin name="IOVDD" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="VSS" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="!RESET!" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="AVDD" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="DECOUPLE" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VDD_DREG" x="-15.24" y="5.08" visible="pin" length="short"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="7.874" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LE25U20AMB">
+<pin name="!CS!" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="SO" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="!WP!" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="VSS" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="SI" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SCK" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="!HOLD!" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VDD" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-10.414" y="9.144" size="1.016" layer="95">&gt;NAME
+</text>
+<text x="2.286" y="-11.43" size="1.016" layer="94">LE25U20AMB</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -539,7 +733,101 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="EFM32HG322F64G" prefix="IC">
+<gates>
+<gate name="G$1" symbol="EFM32HG322F64G-A" x="0" y="30.48"/>
+<gate name="G$2" symbol="EFM32HG322F64G-B" x="2.54" y="10.16"/>
+<gate name="G$3" symbol="EFM32HG322F64G-C" x="2.54" y="-15.24"/>
+<gate name="G$4" symbol="EFM32HG322F64G-D" x="-2.54" y="-38.1"/>
+<gate name="G$5" symbol="EFM32HG322F64G-E" x="-2.54" y="-58.42"/>
+<gate name="G$6" symbol="EFM32HG322F64G-F" x="5.08" y="-76.2"/>
+<gate name="G$7" symbol="EFM32HG322F64G-POWER" x="7.62" y="-99.06"/>
+</gates>
+<devices>
+<device name="TQFP48" package="TQFP48">
+<connects>
+<connect gate="G$1" pin="I2C0_SCL" pad="2"/>
+<connect gate="G$1" pin="I2C0_SDA" pad="1"/>
+<connect gate="G$1" pin="PA10" pad="15"/>
+<connect gate="G$1" pin="PA2" pad="3"/>
+<connect gate="G$1" pin="PA8" pad="13"/>
+<connect gate="G$1" pin="PA9" pad="14"/>
+<connect gate="G$2" pin="PB11" pad="17"/>
+<connect gate="G$2" pin="PB13" pad="20"/>
+<connect gate="G$2" pin="PB14" pad="21"/>
+<connect gate="G$2" pin="PB7/LFXTAL_P" pad="11"/>
+<connect gate="G$2" pin="PB8/LFXTAL_N" pad="12"/>
+<connect gate="G$3" pin="PC0/US1_TX" pad="6"/>
+<connect gate="G$3" pin="PC1/US1_RX" pad="7"/>
+<connect gate="G$3" pin="PC10" pad="32"/>
+<connect gate="G$3" pin="PC14/USB_DM" pad="35"/>
+<connect gate="G$3" pin="PC15/USB_DP" pad="36"/>
+<connect gate="G$3" pin="PC2" pad="8"/>
+<connect gate="G$3" pin="PC3" pad="9"/>
+<connect gate="G$3" pin="PC4" pad="10"/>
+<connect gate="G$3" pin="PC8" pad="30"/>
+<connect gate="G$3" pin="PC9" pad="31"/>
+<connect gate="G$4" pin="PD4" pad="24"/>
+<connect gate="G$4" pin="PD5" pad="25"/>
+<connect gate="G$4" pin="PD6" pad="26"/>
+<connect gate="G$4" pin="PD7" pad="27"/>
+<connect gate="G$5" pin="PE10/US0_TX" pad="45"/>
+<connect gate="G$5" pin="PE11/US0_RX" pad="46"/>
+<connect gate="G$5" pin="PE12/ADC0_CH0" pad="47"/>
+<connect gate="G$5" pin="PE13/ADC0_CH1" pad="48"/>
+<connect gate="G$6" pin="PF0/DBG_SWCLK" pad="37"/>
+<connect gate="G$6" pin="PF1/DBG_SWDIO" pad="38"/>
+<connect gate="G$6" pin="PF2" pad="39"/>
+<connect gate="G$6" pin="PF3" pad="40"/>
+<connect gate="G$6" pin="PF4" pad="41"/>
+<connect gate="G$6" pin="PF5" pad="42"/>
+<connect gate="G$7" pin="!RESET!" pad="16"/>
+<connect gate="G$7" pin="AVDD" pad="19 23"/>
+<connect gate="G$7" pin="DECOUPLE" pad="29"/>
+<connect gate="G$7" pin="IOVDD" pad="4 22 43"/>
+<connect gate="G$7" pin="VDD_DREG" pad="28"/>
+<connect gate="G$7" pin="VSS" pad="5 18 44"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LE25U20AMB" prefix="IC">
+<gates>
+<gate name="G$1" symbol="LE25U20AMB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOP8K" package="SOP8K">
+<connects>
+<connect gate="G$1" pin="!CS!" pad="1"/>
+<connect gate="G$1" pin="!HOLD!" pad="7"/>
+<connect gate="G$1" pin="!WP!" pad="3"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="ON Semiconductor"/>
+<attribute name="MN_CODE" value="LE25U20AMB-AH" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="LE25U20AMB-AHOSTR-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
