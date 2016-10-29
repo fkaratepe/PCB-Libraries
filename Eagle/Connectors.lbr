@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -115,6 +115,29 @@
 <wire x1="7" y1="1.1" x2="7" y2="1.2" width="0.127" layer="21"/>
 <text x="-1.65" y="6.35" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="SJ1-2535-SMT-TR">
+<smd name="1" x="0.7" y="-4.45" dx="1.8" dy="1.7" layer="1"/>
+<smd name="3" x="3.7" y="-4.45" dx="1.8" dy="1.7" layer="1"/>
+<smd name="5" x="6.7" y="-4.45" dx="1.8" dy="1.7" layer="1"/>
+<smd name="2" x="9" y="4.15" dx="1.8" dy="1.9" layer="1"/>
+<smd name="4" x="2.6" y="4.35" dx="1.8" dy="1.5" layer="1"/>
+<wire x1="-2.2" y1="-1.3" x2="-2.2" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.3" x2="-1" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-1" y1="1.3" x2="-1" y2="3.6" width="0.127" layer="21"/>
+<wire x1="-1" y1="3.6" x2="1.5" y2="3.6" width="0.127" layer="21"/>
+<wire x1="3.7" y1="3.6" x2="7.9" y2="3.6" width="0.127" layer="21"/>
+<wire x1="9.4" y1="3" x2="9.4" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="9.4" y1="-3.6" x2="7.9" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-3.6" x2="7.8" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="5.6" y1="-3.6" x2="4.8" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-3.6" x2="1.8" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-3.6" x2="-1" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-1" y1="-3.6" x2="-1" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1.3" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
+<hole x="0" y="0" drill="1.9"/>
+<hole x="5.4" y="0" drill="1.4"/>
+<text x="-1" y="5.25" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-MICRO_B">
@@ -157,6 +180,36 @@
 <pin name="5" x="7.62" y="-2.54" visible="pad" length="short" rot="R180"/>
 <text x="-11.43" y="13.208" size="1.016" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="SJ1-2535-SMT-TR">
+<wire x1="-12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="7.874" x2="-11.43" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="12.7" visible="pad" length="short" rot="R180"/>
+<pin name="3" x="7.62" y="10.16" visible="pad" length="short" rot="R180"/>
+<pin name="5" x="7.62" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="2" x="7.62" y="-7.62" visible="pad" length="short" rot="R180"/>
+<wire x1="2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="1.27" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="3.556" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<pin name="4" x="7.62" y="-2.54" visible="pad" length="short" rot="R180"/>
+<text x="-11.43" y="13.208" size="1.016" layer="95">&gt;NAME</text>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="3.81" y1="8.636" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="1.27" y1="8.636" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB-MICRO_B" prefix="CON">
@@ -192,6 +245,30 @@
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJ1-2535-SMT-TR" prefix="CON">
+<gates>
+<gate name="G$1" symbol="SJ1-2535-SMT-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ1-2535-SMT-TR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="CUI Inc."/>
+<attribute name="MN_CODE" value="SJ1-2535-SMT-TR" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="CP1-2535SJTR-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
