@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -83,6 +83,13 @@
 <wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.127" layer="21"/>
 <text x="-0.85" y="0.75" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="2-XFDFN">
+<smd name="C" x="-0.6185" y="0" dx="0.385" dy="0.69" layer="1"/>
+<smd name="A" x="0.2935" y="0" dx="1.035" dy="0.69" layer="1"/>
+<wire x1="-0.815" y1="0.415" x2="0.815" y2="0.415" width="0.127" layer="21"/>
+<wire x1="0.815" y1="-0.415" x2="-0.815" y2="-0.415" width="0.127" layer="21"/>
+<text x="-0.9" y="0.5" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PMEGXX10BEA">
@@ -93,6 +100,16 @@
 <pin name="2" x="-5.08" y="0" visible="pad" length="short"/>
 <pin name="1" x="2.54" y="0" visible="pad" length="short" rot="R180"/>
 <text x="-0.254" y="3.048" size="1.016" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="DIODE">
+<wire x1="-2.54" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="C" x="2.54" y="0" visible="pad" length="short" rot="R180"/>
+<text x="-4.572" y="2.794" size="1.27" layer="95">&gt;NAME</text>
+<text x="-4.318" y="-4.064" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -112,6 +129,27 @@
 <attribute name="MN_CODE" value="PMEG4010BEA,135" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="568-10388-2-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SDM2U40CSP" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-DIODE" package="2-XFDFN">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Diodes "/>
+<attribute name="MN_CODE" value="SDM2U40CSP-7B" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="SDM2U40CSP-7BDITR-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
