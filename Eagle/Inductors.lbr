@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -174,6 +174,17 @@
 <wire x1="-0.4" y1="2" x2="0.4" y2="2" width="0.127" layer="21"/>
 <wire x1="0.4" y1="-2" x2="-0.4" y2="-2" width="0.127" layer="21"/>
 </package>
+<package name="PA4332.472NLT">
+<smd name="1" x="-1.525" y="0" dx="1.1" dy="3.1" layer="1"/>
+<smd name="2" x="1.525" y="0" dx="1.1" dy="3.1" layer="1"/>
+<wire x1="-2.1" y1="2.1" x2="-2.1" y2="1.75" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-1.75" x2="-2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2.1" x2="2.1" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.75" x2="2.1" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.1" x2="-2.1" y2="2.1" width="0.127" layer="21"/>
+<text x="-2.1" y="2.25" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR_SMD">
@@ -206,6 +217,27 @@
 <attribute name="MN_CODE" value="SRN4012TA-3R3M" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="SRN4012TA-3R3MCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PA4332.472NLT" prefix="L">
+<gates>
+<gate name="G$1" symbol="INDUCTOR_SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SRN4012TA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Pulse Electronics Corporation"/>
+<attribute name="MN_CODE" value="PA4332.472NLT" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="553-3292-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
