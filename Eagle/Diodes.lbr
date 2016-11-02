@@ -90,6 +90,24 @@
 <wire x1="0.815" y1="-0.415" x2="-0.815" y2="-0.415" width="0.127" layer="21"/>
 <text x="-0.9" y="0.5" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="SOT-23">
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
+<wire x1="-1.45" y1="0.65" x2="-1.45" y2="-0.35" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.35" x2="1.45" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="0.6" y2="0.65" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0.65" x2="-1.45" y2="0.65" width="0.127" layer="21"/>
+<text x="-1.5" y="1.6" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="DZ2J150M0L">
+<smd name="C" x="-1.2" y="0" dx="0.9" dy="1.1" layer="1"/>
+<smd name="A" x="1.2" y="0" dx="0.9" dy="0.9" layer="1"/>
+<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.127" layer="21"/>
+<wire x1="0.85" y1="0.625" x2="-0.85" y2="0.625" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="0.6" x2="-0.4" y2="-0.6" width="0.127" layer="21"/>
+<text x="-1.7" y="0.7" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="PMEGXX10BEA">
@@ -110,6 +128,27 @@
 <pin name="C" x="2.54" y="0" visible="pad" length="short" rot="R180"/>
 <text x="-4.572" y="2.794" size="1.27" layer="95">&gt;NAME</text>
 <text x="-4.318" y="-4.064" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DIODE_1A_2C">
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-4.064" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-0.762" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-4.318" y2="2.032" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="4.064" y2="0" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="4.318" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0.762" y2="2.032" width="0.254" layer="94"/>
+<pin name="C1" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
+<pin name="C2" x="-2.54" y="5.08" visible="pad" length="short" rot="R270"/>
+<pin name="A1" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
+<text x="-2.54" y="7.62" size="1.016" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -150,6 +189,49 @@
 <attribute name="MN_CODE" value="SDM2U40CSP-7B" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="SDM2U40CSP-7BDITR-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBZ20VALT1G" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE_1A_2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SOT-23" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="A1" pad="3"/>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="ON Semiconductor"/>
+<attribute name="MN_CODE" value="MMBZ20VALT1G" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="MMBZ20VALT1GOSTR-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DZ2J150M0LTR" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DZ2J150M0L">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Panasonic Electronic Components"/>
+<attribute name="MN_CODE" value="DZ2J150M0L" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="DZ2J150M0LTR-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
