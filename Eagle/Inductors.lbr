@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -185,6 +185,17 @@
 <wire x1="2.1" y1="2.1" x2="-2.1" y2="2.1" width="0.127" layer="21"/>
 <text x="-2.1" y="2.25" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="PCC-M0630M-LP">
+<smd name="1" x="-2.921" y="0" dx="2.413" dy="3.429" layer="1"/>
+<smd name="2" x="2.921" y="0" dx="2.413" dy="3.429" layer="1"/>
+<wire x1="-3.2" y1="3" x2="3.2" y2="3" width="0.127" layer="21"/>
+<wire x1="3.2" y1="3" x2="3.2" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-1.9" x2="3.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="3.2" y1="-3" x2="-3.2" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-3" x2="-3.2" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="1.9" x2="-3.2" y2="3" width="0.127" layer="21"/>
+<text x="-3.2" y="3.2" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR_SMD">
@@ -238,6 +249,27 @@
 <attribute name="MN_CODE" value="PA4332.472NLT" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="553-3292-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ETQ-P3M220KVN" prefix="L">
+<gates>
+<gate name="G$1" symbol="INDUCTOR_SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCC-M0630M-LP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Panasonic Electronic Components"/>
+<attribute name="MN_CODE" value="ETQ-P3M220KVN" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="P19762CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
