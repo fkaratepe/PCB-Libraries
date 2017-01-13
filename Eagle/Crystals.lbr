@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -78,9 +78,35 @@
 <wire x1="0.5" y1="-0.75" x2="-0.5" y2="-0.75" width="0.127" layer="21"/>
 <text x="-1.9" y="1.1" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="XRCPB_F_P">
+<smd name="1" x="-0.65" y="0.45" dx="0.5" dy="0.5" layer="1"/>
+<smd name="2@1" x="0.65" y="0.45" dx="0.5" dy="0.5" layer="1"/>
+<smd name="2@2" x="-0.65" y="-0.45" dx="0.5" dy="0.5" layer="1"/>
+<smd name="3" x="0.65" y="-0.45" dx="0.5" dy="0.5" layer="1"/>
+<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1" y1="-0.8" x2="1" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1" y1="-0.8" x2="1" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1" y1="0.8" x2="-1" y2="0.8" width="0.127" layer="21"/>
+<text x="-1" y="0.9" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FX135A-327">
+<wire x1="-1.524" y1="2.286" x2="-1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.286" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.032" x2="1.016" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="1.016" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="-1.016" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.016" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="CRYSTAL">
 <wire x1="-1.524" y1="2.286" x2="-1.524" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.524" y1="0" x2="-1.524" y2="-2.286" width="0.254" layer="94"/>
 <wire x1="1.524" y1="2.286" x2="1.524" y2="0" width="0.254" layer="94"/>
@@ -113,6 +139,28 @@
 <attribute name="MN_CODE" value="FX135A-327" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="631-1002-2-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XRCGB27M120F3M10R0" prefix="Y">
+<description>27.12MHz ±30ppm Crystal 10pF 80 Ohm -30°C ~ 85°C Surface Mount 4-SMD, No Lead (DFN, LCC)</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XRCPB_F_P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Murata Electronics " constant="no"/>
+<attribute name="MN_CODE" value="XRCGB27M120F3M10R0" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="490-8578-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
