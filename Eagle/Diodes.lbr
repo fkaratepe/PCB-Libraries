@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -132,6 +132,18 @@
 <wire x1="-0.5" y1="0.625" x2="-0.65" y2="0.625" width="0.127" layer="21"/>
 <wire x1="-0.5" y1="-0.625" x2="-0.5" y2="0.625" width="0.127" layer="21"/>
 <text x="-1.75" y="0.7" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="SOD128">
+<smd name="1" x="-2.2" y="0" dx="1.4" dy="2.1" layer="1"/>
+<smd name="2" x="2.2" y="0" dx="1.4" dy="2.1" layer="1"/>
+<wire x1="-2.1" y1="1.7" x2="2.1" y2="1.7" width="0.254" layer="21"/>
+<wire x1="2.1" y1="1.7" x2="2.1" y2="1.35" width="0.254" layer="21"/>
+<wire x1="2.1" y1="-1.35" x2="2.1" y2="-1.7" width="0.254" layer="21"/>
+<wire x1="2.1" y1="-1.7" x2="-2.1" y2="-1.7" width="0.254" layer="21"/>
+<wire x1="-2.1" y1="-1.7" x2="-2.1" y2="-1.35" width="0.254" layer="21"/>
+<wire x1="-2.1" y1="1.35" x2="-2.1" y2="1.7" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="1.6" x2="-1.2" y2="-1.65" width="0.254" layer="21"/>
+<text x="-2.1" y="1.9" size="1.016" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -311,6 +323,28 @@
 <attribute name="MN_CODE" value="DZ2J150M0L" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="DZ2J150M0LTR-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTVS30VP1UP,115" prefix="D">
+<description>TVS DIODE 30VWM 48.4VC SOD128</description>
+<gates>
+<gate name="G$1" symbol="ZENER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD128">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="NXP USA Inc." constant="no"/>
+<attribute name="MN_CODE" value="PTVS30VP1UP,115" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="568-5324-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -298,6 +298,29 @@
 <wire x1="-2.9" y1="0.75" x2="-2.9" y2="-0.75" width="0.127" layer="21"/>
 <wire x1="2.9" y1="-0.75" x2="2.9" y2="0.75" width="0.127" layer="21"/>
 </package>
+<package name="1264EY-100M">
+<smd name="1" x="0" y="2.075" dx="5.3" dy="2.95" layer="1"/>
+<smd name="2" x="0" y="-2.075" dx="5.3" dy="2.95" layer="1"/>
+<wire x1="-3.15" y1="3.15" x2="-2.85" y2="3.15" width="0.127" layer="21"/>
+<wire x1="2.85" y1="3.15" x2="3.15" y2="3.15" width="0.127" layer="21"/>
+<wire x1="3.15" y1="3.15" x2="3.15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-3.15" x2="2.85" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-2.85" y1="-3.15" x2="-3.15" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.127" layer="21"/>
+<text x="-3.2" y="3.7" size="1.016" layer="21">&gt;NAME</text>
+</package>
+<package name="L2520">
+<smd name="1" x="-1.225" y="0" dx="0.85" dy="2.5" layer="1"/>
+<wire x1="-1.9" y1="-1.45" x2="-1.9" y2="1.45" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.45" x2="1.7" y2="1.45" width="0.127" layer="21"/>
+<wire x1="1.95" y1="1.25" x2="1.95" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-1.45" x2="-1.9" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="1.95" y1="-1.25" x2="1.8" y2="-1.45" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.7" y1="1.45" x2="1.95" y2="1.25" width="0.127" layer="21" curve="-90"/>
+<text x="-1.9" y="1.6" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.95" y="-1.6" size="1.016" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="2" x="1.225" y="0" dx="0.85" dy="2.5" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR_SMD">
@@ -479,6 +502,50 @@
 <attribute name="MN_CODE" value="" constant="no"/>
 <attribute name="ORDER" value="" constant="no"/>
 <attribute name="ORDER_CODE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1264EY-100M" prefix="L">
+<description>10µH Shielded Wirewound Inductor 3.5A 54 mOhm Max Nonstandard</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR_SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1264EY-100M">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Murata Electronics North America" constant="no"/>
+<attribute name="MN_CODE" value="1264EY-100M" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="490-10814-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CIG22L4R7MNE" prefix="L">
+<description>4.7µH Shielded Multilayer Inductor 1.1A 110 mOhm 1008 (2520 Metric)</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR_SMD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L2520">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Samsung Electro-Mechanics America, Inc." constant="no"/>
+<attribute name="MN_CODE" value="CIG22L4R7MNE" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="1276-6213-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

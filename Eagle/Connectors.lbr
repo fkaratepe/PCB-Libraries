@@ -301,6 +301,24 @@
 <wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
 <text x="-2.56" y="1.4" size="1.016" layer="21">&gt;NAME</text>
 </package>
+<package name="CONN_HEADER_2POS_1.27MM">
+<pad name="1" x="-1" y="0" drill="1" shape="square"/>
+<pad name="2" x="1" y="0" drill="1" shape="square"/>
+<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1" x2="2" y2="-1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="1" x2="-2" y2="1" width="0.127" layer="21"/>
+<text x="-2" y="1.1" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="CONN_HEADER_2POS_2.54MM">
+<pad name="1" x="-1.27" y="0" drill="1.1" shape="square"/>
+<pad name="2" x="1.27" y="0" drill="1.1" shape="square"/>
+<text x="-2.45" y="1.35" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-2.45" y1="1.15" x2="-2.45" y2="-1.15" width="0.254" layer="21"/>
+<wire x1="-2.45" y1="-1.15" x2="2.45" y2="-1.15" width="0.254" layer="21"/>
+<wire x1="2.45" y1="-1.15" x2="2.45" y2="1.15" width="0.254" layer="21"/>
+<wire x1="2.45" y1="1.15" x2="-2.45" y2="1.15" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-MICRO_B">
@@ -445,6 +463,14 @@
 <pin name="4" x="-5.08" y="-2.54" visible="pin" length="short"/>
 <pin name="5" x="-5.08" y="-5.08" visible="pin" length="short"/>
 <text x="-2.794" y="7.874" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="CONNECTOR_HEADER_2POS">
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="0" x2="3.556" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="2" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="0.254" size="1.016" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -609,6 +635,50 @@
 <attribute name="MN_CODE" value="" constant="no"/>
 <attribute name="ORDER" value="" constant="no"/>
 <attribute name="ORDER_CODE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRPB021VWCN-RC" prefix="J">
+<description>2 Positions Header, Unshrouded Connector 0.050" (1.27mm) Through Hole, Right Angle Gold</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_HEADER_2POS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_HEADER_2POS_1.27MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY_CODE" value="S9016E-02-ND" constant="no"/>
+<attribute name="MN" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MN_CODE" value="GRPB021VWCN-RC" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="M20-9990246" prefix="J">
+<description>2 Positions Header, Unshrouded, Breakaway Connector 0.100" (2.54mm) Through Hole Tin</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR_2PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_HEADER_2POS_2.54MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Harwin Inc." constant="no"/>
+<attribute name="MN_CODE" value="M20-9990246" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="952-2262-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
