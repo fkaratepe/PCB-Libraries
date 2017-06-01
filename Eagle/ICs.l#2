@@ -611,7 +611,6 @@
 <vertex x="0.8" y="0.2"/>
 <vertex x="0.8" y="0.5"/>
 </polygon>
-<circle x="-0.55" y="0.85" radius="0.14141875" width="0.127" layer="21"/>
 </package>
 <package name="LGA-12">
 <smd name="1" x="-0.75" y="1" dx="0.275" dy="0.75" layer="1"/>

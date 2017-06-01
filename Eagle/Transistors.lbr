@@ -81,6 +81,16 @@
 <wire x1="-0.9" y1="0.625" x2="-1" y2="0.625" width="0.127" layer="21"/>
 <text x="-1" y="0.95" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="SOT23">
+<smd name="G" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="S" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="D" x="0" y="1" dx="0.8" dy="0.9" layer="1"/>
+<wire x1="-1.45" y1="0.65" x2="-0.6" y2="0.65" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.35" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="-0.35" x2="-1.45" y2="0.65" width="0.127" layer="21"/>
+<text x="-1.4" y="1.7" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="N-MOSFET">
@@ -126,6 +136,47 @@
 <wire x1="-1.016" y1="-1.524" x2="-1.524" y2="-2.032" width="0.254" layer="94"/>
 <text x="-2.54" y="7.62" size="1.016" layer="95">&gt;NAME</text>
 </symbol>
+<symbol name="P-MOSFET">
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="-3.048" y="7.62" size="1.016" layer="95">&gt;NAME</text>
+<wire x1="-1.27" y1="-1.778" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="-1.27" y1="0.762" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0.254" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0.254" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-0.254" x2="-0.508" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-0.508" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-0.508" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-0.254" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.254" y2="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.302" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-0.762" x2="2.286" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-0.762" x2="2.032" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-1.016" x2="1.778" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.27" x2="1.524" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-1.016" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-0.762" x2="1.778" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-0.762" x2="1.778" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="2.032" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.016" x2="1.524" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.778" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.27" x2="2.286" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.27" x2="1.778" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-3.048" x2="0" y2="-3.048" width="0.254" layer="94"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<circle x="0" y="0" radius="4.257815625" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DMG1012T-7" prefix="Q">
@@ -169,6 +220,29 @@
 <attribute name="MN_CODE" value="2SC4116-GR,LF" constant="no"/>
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="2SC4116-GRLFCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMG2305UX" prefix="Q">
+<description>MOSFET P-CH 20V 4.2A SOT23</description>
+<gates>
+<gate name="G$1" symbol="P-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Diodes Incorporated" constant="no"/>
+<attribute name="MN_CODE" value="DMG2305UX-7" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="DMG2305UX-7DITR-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

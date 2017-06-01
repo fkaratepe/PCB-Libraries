@@ -319,6 +319,204 @@
 <wire x1="2.45" y1="-1.15" x2="2.45" y2="1.15" width="0.254" layer="21"/>
 <wire x1="2.45" y1="1.15" x2="-2.45" y2="1.15" width="0.254" layer="21"/>
 </package>
+<package name="CI0104P1HK0">
+<pad name="1" x="-3" y="0" drill="1"/>
+<pad name="2" x="-1" y="0" drill="1"/>
+<pad name="3" x="1" y="0" drill="1"/>
+<pad name="4" x="3" y="0" drill="1"/>
+<wire x1="-5" y1="2.1" x2="-5" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="-5" y1="-6.3" x2="5" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="5" y1="-6.3" x2="5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="5" y1="2.1" x2="-5" y2="2.1" width="0.127" layer="21"/>
+<text x="-5.08" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="CONN_HEADER_4POS_3MM">
+<text x="-4.9" y="12.21" size="1.016" layer="25">&gt;NAME</text>
+<smd name="1" x="1.5" y="5.47" dx="1.27" dy="2.92" layer="1"/>
+<smd name="2" x="-1.5" y="5.47" dx="1.27" dy="2.92" layer="1"/>
+<smd name="3" x="1.5" y="10.1" dx="1.27" dy="2.92" layer="1"/>
+<smd name="4" x="-1.5" y="10.1" dx="1.27" dy="2.92" layer="1"/>
+<smd name="EXP@1" x="5.385" y="0" dx="3.43" dy="1.65" layer="1"/>
+<smd name="EXP@2" x="-5.385" y="0" dx="3.43" dy="1.65" layer="1"/>
+<wire x1="-4.825" y1="10.8" x2="-4.825" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="5.31" x2="-4.825" y2="1.06" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="-1.04" x2="-4.825" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="-4.6" x2="4.825" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="4.825" y1="-4.6" x2="4.825" y2="-1.04" width="0.127" layer="21"/>
+<wire x1="4.825" y1="1.06" x2="4.825" y2="5.31" width="0.127" layer="21"/>
+<wire x1="4.825" y1="5.31" x2="4.825" y2="10.8" width="0.127" layer="21"/>
+<wire x1="4.825" y1="10.8" x2="2.475" y2="10.8" width="0.127" layer="21"/>
+<wire x1="0.575" y1="10.8" x2="-0.525" y2="10.8" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="10.8" x2="-4.825" y2="10.8" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="5.31" x2="-2.425" y2="5.31" width="0.127" layer="21"/>
+<wire x1="-0.525" y1="5.31" x2="0.575" y2="5.31" width="0.127" layer="21"/>
+<wire x1="2.475" y1="5.31" x2="4.825" y2="5.31" width="0.127" layer="21"/>
+</package>
+<package name="101-00271-82">
+<smd name="C1" x="4.445" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C5" x="3.175" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C2" x="1.905" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C6" x="0.635" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C3" x="-0.635" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C7" x="-1.905" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C4" x="-3.175" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="C8" x="-4.445" y="1.15" dx="1" dy="2.3" layer="1"/>
+<smd name="SW1" x="-5.445" y="1.15" dx="0.5" dy="2.3" layer="1"/>
+<smd name="SW2" x="-6.745" y="1.15" dx="0.5" dy="2.3" layer="1"/>
+<wire x1="-9.35" y1="1.5" x2="-8.67" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-8.67" y1="1.5" x2="-8.67" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-8.67" y1="-0.5" x2="5.83" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="5.83" y1="-0.5" x2="5.83" y2="1.5" width="0.127" layer="21"/>
+<wire x1="5.83" y1="1.5" x2="9.35" y2="1.5" width="0.127" layer="21"/>
+<wire x1="9.35" y1="1.5" x2="9.35" y2="-20.6" width="0.127" layer="21"/>
+<wire x1="9.35" y1="-25.1" x2="9.35" y2="-26.35" width="0.127" layer="21"/>
+<wire x1="9.35" y1="-26.35" x2="-9.35" y2="-26.35" width="0.127" layer="21"/>
+<wire x1="-9.35" y1="-26.35" x2="-9.35" y2="-25.1" width="0.127" layer="21"/>
+<smd name="EXP1" x="-9.85" y="-22.85" dx="1.7" dy="4" layer="1"/>
+<smd name="EXP2" x="9.85" y="-22.85" dx="1.7" dy="4" layer="1"/>
+<polygon width="0.127" layer="41">
+<vertex x="-8.7" y="-11.5"/>
+<vertex x="-8.7" y="-0.5"/>
+<vertex x="-4.2" y="-0.5"/>
+<vertex x="-4.2" y="-11.5"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-4.6" y="-15.7"/>
+<vertex x="-4.6" y="-12.7"/>
+<vertex x="-3.4" y="-12.7"/>
+<vertex x="-3.4" y="-15.7"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1.9" y="-15.7"/>
+<vertex x="-1.9" y="-12.7"/>
+<vertex x="-0.7" y="-12.7"/>
+<vertex x="-0.7" y="-15.7"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="0.7" y="-15.7"/>
+<vertex x="0.7" y="-12.7"/>
+<vertex x="1.9" y="-12.7"/>
+<vertex x="1.9" y="-15.7"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="3.4" y="-15.7"/>
+<vertex x="3.4" y="-12.7"/>
+<vertex x="4.6" y="-12.7"/>
+<vertex x="4.6" y="-15.7"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-4.6" y="-24.8"/>
+<vertex x="-4.6" y="-21.8"/>
+<vertex x="-3.4" y="-21.8"/>
+<vertex x="-3.4" y="-24.8"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1.9" y="-24.8"/>
+<vertex x="-1.9" y="-21.8"/>
+<vertex x="-0.7" y="-21.8"/>
+<vertex x="-0.7" y="-24.8"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="0.7" y="-24.8"/>
+<vertex x="0.7" y="-21.8"/>
+<vertex x="1.9" y="-21.8"/>
+<vertex x="1.9" y="-24.8"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="3.4" y="-24.8"/>
+<vertex x="3.4" y="-21.8"/>
+<vertex x="4.6" y="-21.8"/>
+<vertex x="4.6" y="-24.8"/>
+</polygon>
+<text x="-9.4" y="2.6" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-9.35" y1="-20.6" x2="-9.35" y2="1.5" width="0.127" layer="21"/>
+<wire x1="7.9" y1="-28.35" x2="-7.35" y2="-28.35" width="0.127" layer="19"/>
+<wire x1="8.6" y1="-32.35" x2="-8.1" y2="-32.35" width="0.127" layer="19"/>
+<wire x1="-9.35" y1="-26.35" x2="-7.35" y2="-28.35" width="0.127" layer="19" curve="90"/>
+<wire x1="9.35" y1="-26.35" x2="9.35" y2="-26.9" width="0.127" layer="19"/>
+<wire x1="9.35" y1="-26.9" x2="7.9" y2="-28.35" width="0.127" layer="19" curve="-90"/>
+<wire x1="-9.35" y1="-26.35" x2="-9.35" y2="-31.05" width="0.127" layer="19"/>
+<wire x1="9.35" y1="-26.35" x2="9.35" y2="-31.5" width="0.127" layer="19"/>
+<wire x1="-9.35" y1="-31.05" x2="-9.35" y2="-31.1" width="0.127" layer="19"/>
+<wire x1="-9.35" y1="-31.1" x2="-8.1" y2="-32.35" width="0.127" layer="19" curve="90"/>
+<wire x1="9.35" y1="-31.5" x2="9.35" y2="-31.6" width="0.127" layer="19"/>
+<wire x1="9.35" y1="-31.6" x2="8.6" y2="-32.35" width="0.127" layer="19" curve="-90"/>
+</package>
+<package name="0430450400">
+<pad name="4" x="-1.5" y="3" drill="0.8"/>
+<pad name="3" x="1.5" y="3" drill="0.8"/>
+<pad name="2" x="-1.5" y="0" drill="0.8"/>
+<pad name="1" x="1.5" y="0" drill="0.8"/>
+<hole x="0" y="-4.32" drill="3"/>
+<wire x1="-4.825" y1="-8.92" x2="-4.825" y2="3.32" width="0.127" layer="21"/>
+<wire x1="-4.825" y1="3.32" x2="-2.425" y2="3.32" width="0.127" layer="21"/>
+<wire x1="-0.525" y1="3.32" x2="0.575" y2="3.32" width="0.127" layer="21"/>
+<wire x1="2.425" y1="3.32" x2="4.825" y2="3.32" width="0.127" layer="21"/>
+<wire x1="4.825" y1="3.32" x2="4.825" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="4.825" y1="-8.92" x2="2.425" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="2.425" y1="-8.92" x2="0.575" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="0.575" y1="-8.92" x2="-0.525" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="-0.525" y1="-8.92" x2="-2.425" y2="-8.92" width="0.127" layer="21"/>
+<wire x1="-2.425" y1="-8.92" x2="-4.825" y2="-8.92" width="0.127" layer="21"/>
+<text x="-4.8" y="4" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="RF_SMA_RA">
+<pad name="ANT" x="0" y="0" drill="1.7"/>
+<pad name="EXP@1" x="-2.54" y="2.54" drill="1.8"/>
+<pad name="EXP@2" x="2.54" y="2.54" drill="1.8"/>
+<pad name="EXP@3" x="-2.54" y="-2.54" drill="1.8"/>
+<pad name="EXP@4" x="2.54" y="-2.54" drill="1.8"/>
+<wire x1="-3.15" y1="0.85" x2="-3.15" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-0.85" y1="-3.15" x2="0.85" y2="-3.15" width="0.127" layer="21"/>
+<wire x1="3.15" y1="-0.85" x2="3.15" y2="0.85" width="0.127" layer="21"/>
+<wire x1="0.85" y1="3.15" x2="-0.85" y2="3.15" width="0.127" layer="21"/>
+<wire x1="-3.15" y1="4.15" x2="-3.15" y2="11.05" width="0.127" layer="51"/>
+<wire x1="-3.15" y1="11.05" x2="3.15" y2="11.05" width="0.127" layer="51"/>
+<wire x1="3.15" y1="11.05" x2="3.15" y2="4.15" width="0.127" layer="51"/>
+<text x="-3.15" y="11.15" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="3-794618-4">
+<pad name="3" x="-1.5" y="4.32" drill="1.2"/>
+<pad name="4" x="1.5" y="4.32" drill="1.2"/>
+<pad name="1" x="-1.5" y="7.32" drill="1.2"/>
+<pad name="2" x="1.5" y="7.32" drill="1.2"/>
+<hole x="0" y="0" drill="3"/>
+<wire x1="-5" y1="-4.6" x2="-2.7" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-4.6" x2="-0.3" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="-4.6" x2="0.3" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-4.6" x2="2.7" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="2.7" y1="-4.6" x2="5" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="5" y1="-4.6" x2="5" y2="7.32" width="0.127" layer="21"/>
+<wire x1="5" y1="7.32" x2="2.7" y2="7.32" width="0.127" layer="21"/>
+<wire x1="0.3" y1="7.32" x2="-0.3" y2="7.32" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="7.32" x2="-5" y2="7.32" width="0.127" layer="21"/>
+<wire x1="-5" y1="7.32" x2="-5" y2="-4.6" width="0.127" layer="21"/>
+<text x="-5" y="8.4" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="MMCX_0734150961">
+<pad name="1" x="0" y="0" drill="0.88"/>
+<pad name="GND@1" x="-1.8125" y="0" drill="1"/>
+<pad name="GND@2" x="1.8125" y="0" drill="1"/>
+<wire x1="-2.25" y1="1.75" x2="-2.25" y2="0.95" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-0.95" x2="-2.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="-2.25" y1="-1.75" x2="2.25" y2="-1.75" width="0.127" layer="21"/>
+<wire x1="2.25" y1="-1.75" x2="2.25" y2="-0.95" width="0.127" layer="21"/>
+<wire x1="2.25" y1="0.95" x2="2.25" y2="1.75" width="0.127" layer="21"/>
+<wire x1="2.25" y1="1.75" x2="-2.25" y2="1.75" width="0.127" layer="21"/>
+<text x="-2.2" y="1.9" size="1.016" layer="25">&gt;NAME</text>
+</package>
+<package name="MMCX_0734151471">
+<pad name="ANT" x="0" y="0" drill="0.84"/>
+<pad name="GND@1" x="-1.27" y="1.27" drill="0.84"/>
+<pad name="GND@2" x="1.27" y="1.27" drill="0.84"/>
+<pad name="GND@3" x="1.27" y="-1.27" drill="0.84"/>
+<pad name="GND@4" x="-1.27" y="-1.27" drill="0.84"/>
+<wire x1="-1.755" y1="0.505" x2="-1.755" y2="-0.505" width="0.127" layer="21"/>
+<wire x1="1.755" y1="-0.495" x2="1.755" y2="0.505" width="0.127" layer="21"/>
+<wire x1="0.545" y1="1.755" x2="-0.555" y2="1.755" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1.75" x2="0.55" y2="-1.75" width="0.127" layer="21"/>
+<text x="-1.8" y="2.1" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="USB-MICRO_B">
@@ -471,6 +669,48 @@
 <pin name="1" x="-5.08" y="-2.54" visible="off" length="short"/>
 <pin name="2" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
 <text x="-2.54" y="0.254" size="1.016" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="SIM_CONNECTOR">
+<pin name="VCC" x="-15.24" y="5.08" length="short"/>
+<pin name="GND" x="-15.24" y="-7.62" length="short"/>
+<pin name="I/O" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="CLK" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="RST" x="15.24" y="-2.54" length="short" rot="R180"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<pin name="SW1" x="-15.24" y="-12.7" length="short"/>
+<pin name="SW2" x="7.62" y="-12.7" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="center"> SIM
+CARD</text>
+<text x="-10.668" y="8.89" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="-9.652" y="-16.51" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="VPP" x="-15.24" y="2.54" length="short"/>
+</symbol>
+<symbol name="SMA_ANTENNA">
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="ANT" x="0" y="0" visible="off" length="short" rot="R90"/>
+<text x="0" y="5.588" size="1.016" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="GND">
+<pin name="ANT" x="0" y="0" visible="off" length="short" rot="R90"/>
+<text x="0" y="5.588" size="1.016" layer="95">&gt;NAME</text>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ANTENNA_MMCX">
+<circle x="0" y="0" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.51446875" width="0.254" layer="94"/>
+<pin name="ANTENNA" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="GND" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
+<text x="-3.302" y="2.794" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -684,7 +924,169 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="CI0104P1HK0" prefix="CON">
+<gates>
+<gate name="G$1" symbol="CONNECTOR_4PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CI0104P1HK0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0430450411" prefix="CON">
+<gates>
+<gate name="G$1" symbol="CONNECTOR_4PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_HEADER_4POS_3MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="101-00271-82" prefix="CON">
+<gates>
+<gate name="G$1" symbol="SIM_CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="101-00271-82">
+<connects>
+<connect gate="G$1" pin="CLK" pad="C3"/>
+<connect gate="G$1" pin="GND" pad="C5"/>
+<connect gate="G$1" pin="I/O" pad="C7"/>
+<connect gate="G$1" pin="RST" pad="C2"/>
+<connect gate="G$1" pin="SW1" pad="SW1"/>
+<connect gate="G$1" pin="SW2" pad="SW2"/>
+<connect gate="G$1" pin="VCC" pad="C1"/>
+<connect gate="G$1" pin="VPP" pad="C6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Amphenol Commercial Products"/>
+<attribute name="MN_CODE" value="101-00271-82" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="101-00271-82-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0430450400" prefix="CON">
+<gates>
+<gate name="G$1" symbol="CONNECTOR_4PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0430450400">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="Molex, LLC"/>
+<attribute name="MN_CODE" value="0430450400" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="WM1814-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RF_SMA_RA" prefix="ANT">
+<gates>
+<gate name="G$1" symbol="SMA_ANTENNA" x="-2.54" y="0"/>
+<gate name="G$2" symbol="GND" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="RF_SMA_RA">
+<connects>
+<connect gate="G$1" pin="ANT" pad="ANT"/>
+<connect gate="G$2" pin="ANT" pad="EXP@1 EXP@2 EXP@3 EXP@4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="" constant="no"/>
+<attribute name="MN_ORDER" value="" constant="no"/>
+<attribute name="ORDER" value="" constant="no"/>
+<attribute name="ORDER_CODE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3-794618-4" prefix="CON">
+<gates>
+<gate name="G$1" symbol="CONNECTOR_4PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3-794618-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MN" value="TE Connectivity AMP Connectors" constant="no"/>
+<attribute name="MN_CODE" value="3-794618-4" constant="no"/>
+<attribute name="ORDER" value="DIGIKEY" constant="no"/>
+<attribute name="ORDER_CODE" value="A33253-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ANTENNA_MMCX" prefix="ANT">
+<gates>
+<gate name="G$1" symbol="ANTENNA_MMCX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MMCX_0734150961">
+<connects>
+<connect gate="G$1" pin="ANTENNA" pad="1"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0734151471" package="MMCX_0734151471">
+<connects>
+<connect gate="G$1" pin="ANTENNA" pad="ANT"/>
+<connect gate="G$1" pin="GND" pad="GND@1 GND@2 GND@3 GND@4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

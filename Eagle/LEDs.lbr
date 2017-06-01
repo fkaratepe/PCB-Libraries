@@ -85,6 +85,22 @@
 <wire x1="0.95" y1="1.35" x2="-0.95" y2="1.35" width="0.127" layer="21"/>
 <text x="-1" y="1.45" size="1.016" layer="25">&gt;NAME</text>
 </package>
+<package name="LED0603">
+<smd name="1" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<smd name="2" x="0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<wire x1="-1.2" y1="0.6" x2="-1.2" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-0.6" x2="1.2" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-0.6" x2="1.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.2" y1="0.6" x2="-1.2" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0" x2="-0.1" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.1" y2="0.2" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="0.2" x2="0.1" y2="0" width="0.127" layer="21"/>
+<wire x1="0.1" y1="0" x2="-0.1" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-0.2" x2="-0.1" y2="0" width="0.127" layer="21"/>
+<wire x1="0.15" y1="0.25" x2="0.15" y2="-0.2" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0" x2="0.25" y2="0" width="0.127" layer="21"/>
+<text x="-1.2" y="0.7" size="1.016" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RGB">
@@ -147,6 +163,15 @@
 <pin name="G" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
 <pin name="B" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
 </symbol>
+<symbol name="LED">
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" rot="R180"/>
+<text x="-5.334" y="3.302" size="1.016" layer="95">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RGB_LED" prefix="LED">
@@ -194,6 +219,22 @@
 <attribute name="ORDER" value="DIGIKEY" constant="no"/>
 <attribute name="ORDER_CODE" value="160-2162-1-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED" prefix="LED">
+<gates>
+<gate name="G$1" symbol="LED" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
